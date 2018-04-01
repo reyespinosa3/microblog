@@ -2,23 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Micro Blog</title>
+    <title>Vacation Spot Suggestions</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
     <div id="outline">
-    <h1>Micro Blog</h1>
-
+      <h1>Vacation Spots: Where To Go & What To Do</h1>
+        <h2>Where is your "Ultimate" vacation spot and what would you suggest doing while you're there?</h2>
       <form id="microblogform">
-        <input id="microblogpost" type="text" placeholder="Micro Blog Post"><br>
-        <button type="submit" form="microblogform" value="submit">Post</button>
+        <input id="microblogpost" type="text" placeholder="Enter your post here"><br>
+        <button type="submit" form="microblogform" value="submit">Submit Your Idea</button>
       </form>
-
-    <h1>Recent Micro Blog Posts</h1>
-      <section><span id="first"></span></section>
-      <section><span id="second"></span></section>
-      <section><span id="third"></span></section>
     </div>
+    <h1>Recent Vacation Spot Posts</h1>
+    <div>
+      <ul id="postList">
+      </ul>
+      <!-- <section><span id="first"></span></section>
+      <section><span id="second"></span></section>
+      <section><span id="third"></span></section> -->
+    </div>
+    <footer>
+      <h3>Created by Rey Espinosa</h3>
+    </footer>
     <script src="js/main.js"></script>
   </body>
 </html>
